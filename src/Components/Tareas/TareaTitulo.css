@@ -1,0 +1,15 @@
+.tareas__titulo {
+  width: 100%;
+}
+.tareas__titulo > h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2rem;
+}
+.titulo-icon {
+  font-size: 3rem;
+  margin-right: 1.2rem;
+  margin-bottom: 0.2rem;
+}

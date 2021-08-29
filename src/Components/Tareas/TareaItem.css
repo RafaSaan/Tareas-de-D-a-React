@@ -1,0 +1,55 @@
+.tarea__item {
+  width: 26rem;
+  height: 17.5rem;
+  /* border: 1px solid #fff; */
+  /* backdrop-filter: blur(25px) saturate(102%);
+  -webkit-backdrop-filter: blur(25px) saturate(102%);
+  background-color: rgba(255, 255, 255, 0.14);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3); */
+  border-radius: 10px;
+  background-color: rgba(64, 63, 62, 0.2);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(9px);
+  border: 1px rgba(255, 255, 255, 0.18) solid;
+  border-bottom: 1px rgba(40, 40, 40, 0.35) solid;
+  border-right: 1px rgba(40, 40, 40, 0.35) solid;
+}
+.tarea__info {
+  width: 90%;
+  margin: 0 auto;
+  height: 75%;
+  color: #fff;
+}
+.tarea__item__titulo {
+  font-size: 2rem;
+  padding: 1.2rem 0;
+}
+.tarea__parrafo {
+  font-size: 1.6rem;
+}
+.tarea__acciones {
+  width: 90%;
+  height: 20%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tarea__import {
+  width: 9rem;
+  height: 2.5rem;
+  background: #8139dd;
+  border-radius: 0.8rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.item-icon {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: lighter;
+  margin-left: 1.3rem;
+  cursor: pointer;
+}

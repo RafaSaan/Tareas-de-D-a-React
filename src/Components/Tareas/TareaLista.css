@@ -1,0 +1,7 @@
+.tarea__lista {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+  gap: 3rem;
+  place-items: center;
+}

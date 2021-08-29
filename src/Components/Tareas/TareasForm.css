@@ -1,0 +1,45 @@
+.tareas__form {
+  width: 100%;
+}
+.tareas__input,
+.tareas-btn {
+  width: 21rem;
+  height: 3rem;
+  font-size: 1.8rem;
+  background: #000;
+  color: #fff;
+  outline: none;
+  border: 0.5px solid #fff;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+::placeholder {
+  padding-left: 0.6rem;
+}
+.tareas-btn {
+  cursor: pointer;
+}
+.btn-plus {
+  font-size: 2rem;
+  position: relative;
+  top: 0.4rem;
+  margin-left: 1rem;
+}
+.titulo-form {
+  font-size: 1.8rem;
+  color: #fff;
+  margin: 1rem 2rem;
+}
+@media screen and (max-width: 570px) {
+  .tareas__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .tareas__input,
+  .tareas-btn {
+    margin-left: 0;
+  }
+}
