@@ -5,3 +5,9 @@
   gap: 3rem;
   place-items: center;
 }
+.mensaje {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  color: #fff;
+  margin-top: 3rem;
+}

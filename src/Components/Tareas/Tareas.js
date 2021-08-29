@@ -4,23 +4,7 @@ import TareasForm from "./TareasForm";
 import TareasLista from "./TareasLista";
 import TareaTitulo from "./TareaTitulo";
 
-const dB = [
-  // {
-  //   titulo: "",
-  //   tarea: "",
-  //   id: "",
-  // },
-  // {
-  //   titulo: "Hacer de comer",
-  //   tarea: "Preparar la comida de la semana",
-  //   id: "2",
-  // },
-  // {
-  //   titulo: "Limpiar",
-  //   tarea: "limpiar mi cuarto y area de trabajo",
-  //   id: "3",
-  // },
-];
+const dB = [];
 
 const Tareas = () => {
   const [bd, setBd] = useState(dB);
